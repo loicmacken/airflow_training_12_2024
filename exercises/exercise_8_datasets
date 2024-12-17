@@ -1,0 +1,6 @@
+# Exercise 8
+
+- Create two dags one to be "producer" and the other "consumer"
+- The producer DAG should trigger every 10 seconds
+- The consumer DAG should trigger each time the producer DAG finish a run.
+- Tip: Don’t worry too much about actually storing or changing any data
